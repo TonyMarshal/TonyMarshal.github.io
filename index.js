@@ -26,6 +26,8 @@ function togglemenu(){
 }
 let css_link = document.getElementById('css')
 
+
+
 icon.onclick = function() {
 
     if (localStorage.getItem("theme") == "index.css") {
@@ -40,12 +42,20 @@ icon.onclick = function() {
    
 }
 
+
+
 const change = ()=>{
     css_link.href = localStorage.getItem('theme')
 
 }
 
-change()
+if (localStorage.getItem("theme" == null)) {
+    localStorage.setItem("theme","index.css")
+}else{
+    change()
+}
+
+
 
 console.log(theme_link)
 
