@@ -293,8 +293,10 @@
     .profilepic {
         display: grid;
     }
-    
-    .profilepic img{
+
+    #pic {
+        width: 40%; 
+        height:40%;
         margin-left: 220px;
         position: absolute;
         top: 0%;
@@ -305,10 +307,5 @@
         display: inline-flex;
         align-items: center;
         justify-content: center;
-    }
-
-    #pic {
-        width: 40%; 
-        height:45%;
     }
 }

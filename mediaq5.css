@@ -120,7 +120,7 @@
         cursor: pointer;
         z-index: 1000;
         display: block;
-        margin-right: 10px;
+        margin-right: 20px;
         
     }
 
@@ -301,12 +301,12 @@
 
     #pic {
         width: 64%; 
-        height: 40%;
+        height: 38%;
         margin-left: 65px;
         position: absolute;
         top: -20%;
         border-radius: 30%;
-        margin-top: 190px;
+        margin-top: 200px;
     }
 
 }
