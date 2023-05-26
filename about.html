@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <link rel="shortcut icon" href="image/Tony techs.jpg" type="image/x-icon">
+    <link id="css" rel="stylesheet" href="">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.css">
+    <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.min.css">
+</head>
+<body>
+    <div class="All">
+        <div>
+            <nav>
+                <div class="logo">
+                    <img src="image/Tony techs.jpg" id="Tony">
+                </div>
+                <div class="menu-icon" id="menu-icon">
+                    <i class="fa-solid fa-bars" onclick="togglemenu()"></i>
+                </div>
+                <ul class="menuList" id="nav">
+                    <div class="cans" onclick="togglemenu()">
+                        x
+                    </div>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Portfolio.html">Portfolio</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+                <img src="image/moon.png" id="icon">
+            </nav>
+        </div>
+    </div>
+    <div class="About">
+        <center>
+            <h1>About me</h1>
+            <p style="padding: 20px;">I'm a skilled and creative web developer with a passion for creating beautiful, responsive, and user-friendly websites. I've worked on a veriety of web projects, ranging from music website to flight booking website with HTML, CSS, Javascript and React.</p>
+            <div class="gallery">
+                <img src="image/java.jpg">
+                <img src="image/REAC.jpg">
+            </div>
+            <div class="copy">
+                &copy;copy Right Our Website 2023
+            </div>
+        </center>
+    </div>
+    <script src="adds.js"></script>
+    
+    <script type="text/javascript" >
+    let css_link = document.getElementById('css')
+
+icon.onclick = function() {
+
+    if (localStorage.getItem("theme") == "index.css") {
+        localStorage.setItem("theme","dark.css")
+        icon.src = "image/sun.png";        localStorage.setItem('css_theme_link','dark.css')
+    }else {
+        localStorage.setItem("theme","index.css")
+        icon.src = "image/moon.png";        localStorage.setItem('css_theme_link','dark.css')
+    }
+    
+    css_link.href = localStorage.getItem('theme')
+   
+}
+
+const change = ()=>{
+    css_link.href = localStorage.getItem('theme')
+
+}
+
+change()
+
+    </script>
+
+</body>
+</html>

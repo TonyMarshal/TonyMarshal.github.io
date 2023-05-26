@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="image/Tony techs.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.css">
+    <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.min.css">
+</head>
+<body>
+    <div class="All">
+        <div>
+            <nav>
+                <div class="logo">
+                    <img src="image/Tony techs.jpg" alt="" id="Tony">
+                </div>
+                <div class="menu-icon" id="menu-icon">
+                    <i class="fa-solid fa-bars" onclick="togglemenu()"></i>
+                </div>
+                <ul class="menuList" id="nav">
+                    <div class="cans" onclick="togglemenu()">
+                        x
+                    </div>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Portfolio.html">Portfolio</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="full-img" id="fullImgBox">
+        <img src="image/image1.jpg" id="fullImg">
+        <span onclick="closeFullImg()">x</span>
+    </div>
+    <div class="img-gallery">
+        <img src="image/image1.jpg" onclick="openFullImg(this.src)">
+        <img src="image/image2.jpg" onclick="openFullImg(this.src)">
+        <img src="image/image3.jpg" onclick="openFullImg(this.src)">
+        <img src="image/image4.jpg" onclick="openFullImg(this.src)">
+        <img src="image/image5.jpg" onclick="openFullImg(this.src)">
+        <img src="image/image6.jpg" onclick="openFullImg(this.src)">
+        <img src="image/image7.jpg" onclick="openFullImg(this.src)">
+        <img src="image/image8.jpg" onclick="openFullImg(this.src)">
+    </div>
+    <script src="portfolio.js"></script>
+</body>
+</html>
