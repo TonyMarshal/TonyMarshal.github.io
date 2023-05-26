@@ -49,7 +49,7 @@ const change = ()=>{
 
 }
 
-if (localStorage.getItem("theme" == null)) {
+if (localStorage.getItem("theme") == null) {
     localStorage.setItem("theme","index.css")
 }else{
     change()
