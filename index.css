@@ -64,7 +64,7 @@ ul li a:hover {
 }
 
 .log a {
-    color: white;
+    color: blue;
 }
 
 .log::before, .log::after {

@@ -124,6 +124,10 @@
         
     }
 
+    .log a {
+        color: white;
+    }
+
     .log{
       
         border: 1px solid red;
