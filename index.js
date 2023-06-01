@@ -1,7 +1,7 @@
 let popup = document.getElementById('popup');
 
 var typed = new Typed("#in", {
-    strings: ["Abaikwam M. Anthony.","Web Developer.","Software Developer."],
+    strings: ["Abaikwam M. Anthony.","a Web Developer.","a Software Developer."],
     typeSpeed: 70,
     backSpeed: 60,
     loop: true
