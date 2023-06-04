@@ -536,9 +536,9 @@ ul li a:hover {
 
     .menu-icon {
         font-size: 30px;
-        color: #161616;
+        color:var(--secondary-color);
         cursor: pointer;
-        z-index: 10001;
+        z-index: 10000;
         display: block;
         margin-right: 10px;
         
@@ -631,7 +631,7 @@ ul li a:hover {
             left: 100%;
         }
         to{
-            left: 71%;
+            left: 60%;
         }
     }
 
@@ -674,9 +674,9 @@ ul li a:hover {
 
     .menu-icon {
         font-size: 30px;
-        color: #161616;
+        color:var(--secondary-color);
         cursor: pointer;
-        z-index: 10001;
+        z-index: 10000;
         display: block;
         margin-right: 10px;
         
@@ -685,5 +685,13 @@ ul li a:hover {
     .full-img img {
         width: 90%;
         max-width: 500px;
+    }
+
+    #icon {
+        width: 30px;
+        cursor: pointer;
+        margin-left: 300px;
+        position: fixed;
+        bottom: 0;
     }
 }

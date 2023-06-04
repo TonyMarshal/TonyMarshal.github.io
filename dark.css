@@ -1489,4 +1489,13 @@ body{
         cursor: pointer;
         color: white;
     }
+
+    #icon {
+        width: 30px;
+        cursor: pointer;
+        margin-left: 300px;
+        position: absolute;
+        margin-top: 650px;
+    }
 }
+
