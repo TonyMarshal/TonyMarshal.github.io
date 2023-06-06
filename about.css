@@ -933,9 +933,8 @@ nav ul li {
     #icon {
         width: 30px;
         cursor: pointer;
-        margin-left: 230px;
-        margin-top: 600px;
-        position: absolute;
+        margin-left: 300px;
+        position: fixed;
+        margin-bottom: 30px;
     }
-
 }
