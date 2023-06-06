@@ -911,4 +911,12 @@ nav ul li {
         border-radius: 30%;
         margin-top: 200px;
     }
+    
+    #icon {
+        width: 30px;
+        cursor: pointer;
+        margin-left: 230px;
+        margin-top: 600px;
+        position: absolute;
+    }
 }
