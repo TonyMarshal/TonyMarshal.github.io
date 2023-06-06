@@ -935,6 +935,6 @@ nav ul li {
         cursor: pointer;
         margin-left: 300px;
         position: fixed;
-        margin-bottom: 30px;
+        bottom: 0%;
     }
 }
