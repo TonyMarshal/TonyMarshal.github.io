@@ -603,7 +603,7 @@ nav ul li {
         cursor: pointer;
         margin-left: 300px;
         position: fixed;
-        margin-bottom: 30px;
+        margin-bottom: 110px;
     }
 }
 
@@ -762,9 +762,11 @@ nav ul li {
         width: 30px;
         cursor: pointer;
         margin-left: 300px;
-        position: absolute;
-        bottom: 0;
+        position: fixed;
+        margin-bottom: 110px;
     }
+
+    
 }
 
 @media   (max-width: 280px) {
