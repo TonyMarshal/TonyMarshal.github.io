@@ -762,8 +762,8 @@ nav ul li {
         width: 30px;
         cursor: pointer;
         margin-left: 300px;
-        position: fixed;
-        margin-bottom: 80px;
+        position: absolute;
+        bottom: 0;
     }
 }
 
