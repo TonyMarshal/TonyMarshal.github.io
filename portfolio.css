@@ -552,7 +552,7 @@ ul li a:hover {
     #icon {
         width: 30px;
         cursor: pointer;
-        margin-left: 250px;
+        margin-left: 300px;
         position: fixed;
         bottom: 0;
     }
@@ -690,7 +690,7 @@ ul li a:hover {
     #icon {
         width: 30px;
         cursor: pointer;
-        margin-left: 200px;
+        margin-left: 220px;
         position: fixed;
         margin-bottom: 50px;
     }
