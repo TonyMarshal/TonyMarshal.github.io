@@ -690,7 +690,7 @@ ul li a:hover {
     #icon {
         width: 30px;
         cursor: pointer;
-        margin-left: 350px;
+        margin-left: 0px;
         position: fixed;
         margin-bottom: 50px;
     }
