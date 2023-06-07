@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.dark-theme {
+    --primary-color: #000106;
+    --secondary-color: #fff;
+}
+
 body{
     overflow-x: hidden;
 }
@@ -109,10 +114,7 @@ ul li a:hover {
     --secondary-color: black;
 }
 
-.dark-theme {
-    --primary-color: #000106;
-    --secondary-color: #fff;
-}
+
 
 body{
     background-color: var(--primary-color);

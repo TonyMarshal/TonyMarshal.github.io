@@ -692,6 +692,6 @@ ul li a:hover {
         cursor: pointer;
         margin-left: 300px;
         position: fixed;
-        bottom: 0;
+        margin-bottom: 50px;
     }
 }
