@@ -1485,9 +1485,9 @@ body{
     #icon {
         width: 30px;
         cursor: pointer;
-        margin-left: 320px;
-        position: fixed;
-        margin-bottom: 20%;
+        margin-left: 250px;
+        margin-top: 550px;
+        position: absolute;
     }
 }
 
