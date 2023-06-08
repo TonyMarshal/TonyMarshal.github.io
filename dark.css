@@ -1341,14 +1341,6 @@ body{
         --primary-color: #000106;
         --secondary-color: #fff;
     }
-
-    #icon {
-        width: 30px;
-        cursor: pointer;
-        margin-left: 300px;
-        margin-top: 590px;
-        position: fixed;
-    }
     
     .Section {
         margin: 1%;
@@ -1494,7 +1486,7 @@ body{
         width: 30px;
         cursor: pointer;
         margin-left: 250px;
-        margin-top: 500px;
+        margin-top: 640px;
         position: absolute;
     }
 }

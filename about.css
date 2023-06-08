@@ -601,9 +601,9 @@ nav ul li {
     #icon {
         width: 30px;
         cursor: pointer;
-        margin-left: 100px;
+        margin-left: 320px;
         position: fixed;
-        margin-bottom: 110px;
+        margin-bottom: 20%;
     }
 }
 
@@ -763,7 +763,7 @@ nav ul li {
         cursor: pointer;
         margin-left: 300px;
         position: fixed;
-        margin-bottom: 50px;
+        margin-bottom: 110px;
     }
 
     

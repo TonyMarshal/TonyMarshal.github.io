@@ -552,9 +552,9 @@ ul li a:hover {
     #icon {
         width: 30px;
         cursor: pointer;
-        margin-left: 325px;
+        margin-left: 335px;
         position: fixed;
-        margin-bottom: 35px;
+        margin-bottom: 20%;
     }
 }
 
@@ -692,6 +692,6 @@ ul li a:hover {
         cursor: pointer;
         margin-left: 310px;
         position: fixed;
-        margin-bottom: 7px;
+        margin-bottom: 30%;
     }
 }
