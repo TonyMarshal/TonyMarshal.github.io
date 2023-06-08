@@ -1341,6 +1341,14 @@ body{
         --primary-color: #000106;
         --secondary-color: #fff;
     }
+
+    #icon {
+        width: 30px;
+        cursor: pointer;
+        margin-left: 300px;
+        margin-top: 530px;
+        position: fixed;
+    }
     
     .Section {
         margin: 1%;
@@ -1480,14 +1488,6 @@ body{
         background-color: green;
         cursor: pointer;
         color: white;
-    }
-
-    #icon {
-        width: 30px;
-        cursor: pointer;
-        margin-left: 250px;
-        margin-top: 550px;
-        position: absolute;
     }
 }
 
