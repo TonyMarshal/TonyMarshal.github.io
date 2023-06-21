@@ -42,6 +42,66 @@ nav .logo {
     cursor: pointer;
 }
 
+.log {
+    margin-left: -2px;
+    --color: #00A97F;
+    background-color: transparent;
+    border-radius: .3em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 17px;
+    border: 1px solid;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: blue;
+    z-index: 1;
+    width: 80px;
+    height: 40px;
+}
+
+.log a {
+    color: blue;
+}
+
+.log::before, .log::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--color);
+    transition: 1s ease;
+   }
+
+   .log::before {
+    top: -1em;
+    left: -1em;
+   }
+   
+   .log::after {
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+   }
+   
+   .log:hover::before, .log:hover::after {
+    height: 410px;
+    width: 410px;
+   }
+   
+   .log:hover {
+    color: blue;
+   }
+   
+   .log:active {
+    filter: brightness(.8);
+   }
+
 nav ul {
     margin-right: 30px;
 }
@@ -248,11 +308,14 @@ ul li a:hover {
       
         border: 1px solid red;
         background-color: green;
-        color: white;
         border-radius: 5px;
         border: none;
         cursor: pointer;
-       margin-left: 0px;
+        margin-left: 0px;
+    }
+
+    .log a {
+        color: white;
     }
 
     .menu-icon {
@@ -601,6 +664,20 @@ ul li a:hover {
         font-size: 20px;
         cursor: pointer;
     }
+
+    .log{
+      
+        border: 1px solid red;
+        background-color: green;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        margin-left: -5px;
+    }
+
+    .log a {
+        color: white;
+    }
     
     nav ul {
         margin-right: 50px;
@@ -631,7 +708,7 @@ ul li a:hover {
             left: 100%;
         }
         to{
-            left: 60%;
+            left: 57%;
         }
     }
 

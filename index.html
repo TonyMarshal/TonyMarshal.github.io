@@ -34,7 +34,6 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
                     <li><button class="log" href="" ><a href="mailto:nthnuchenn@gmail.com">Hire Me</a></button></li>
                 </ul>
                 <img src="image/moon.png" id="icon">
@@ -61,7 +60,7 @@
             </div>
         </div>
         <div class="able">
-            <li><a href="cv.html" class="Cvlink">View CV</a></li>
+            <li><a href="My CV.pdf" class="Cvlink">View CV</a></li>
         </div>
         
     </div>
@@ -83,6 +82,11 @@
         </div>
 
     </div>
+    <div class="section">
+        <span>
+
+        </span>
+    </div>
 
 </div>
 
@@ -93,22 +97,29 @@
         <script type="text/javascript" src="./index.js"></script>
 
         <script>
-            /*createBubble = () => {
-                const section = document.querySelector('section');
-                const span = document.querySelector('span');
-                var size = Math.random() * 60;
+           
+            setInterval(()=>{
+                const section = document.querySelector('.section');
+                const span = document.querySelectorAll('span');
+               
+                var size = Math.floor(Math.random() * 60) +10;
+                console.log(size);
+
+                 const createElement = document.createElement('span')
 
                 createElement.style.width = size + 'px';
                 createElement.style.height = size + 'px';
                 createElement.style.left = Math.random() * innerWidth + 'px';
+                createElement.style.zIndex = -1
 
                 section.appendChild(createElement);
+                // alert()
 
                 setTimeout(() => {
                     createElement.remove();
                 }, 4000);
-            }
-            setInterval(createBubble, 50)*/
+             
+            }, 500)
         </script>
 
         

@@ -165,7 +165,7 @@
     .Home{
         margin: 0px;
         padding: 5px;
-        margin-top: 10px;
+        margin-top: 175px;
     }
     
     .name {
@@ -199,7 +199,7 @@
     
     .social a:hover {
         transform: translateY(-3px);
-        color: #ef0454;
+        color: yellowgreen;
     }
     
     h1 {
