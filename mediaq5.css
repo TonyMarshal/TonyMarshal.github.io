@@ -142,7 +142,7 @@
     
     body{
         background-color: var(--primary-color);
-        overflow-y: hidden;
+        overflow-y: scroll;
     }
 
     .dark-theme {
