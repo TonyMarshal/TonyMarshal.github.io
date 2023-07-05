@@ -332,7 +332,21 @@
         100%{
             transform: translateY(-1200px);
             
-        }*/
-    }
+        }
+    }*/
+
+    /*.time h1{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 300px;
+        margin-left: 0px;
+        font-size: 20px;
+        font-weight: 300;
+        letter-spacing: 3px;
+        color: blue;
+        cursor: pointer;
+    }*/
 
 }

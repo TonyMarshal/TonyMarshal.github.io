@@ -172,6 +172,20 @@ nav ul li {
     margin-right: 100px;
 }
 
+.time h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 300px;
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: blue;
+    cursor: pointer;
+}
+
 @media  (max-width: 650px) {
     *{
         padding: 0;
@@ -655,6 +669,19 @@ nav ul li {
         position: fixed;
         margin-bottom: 20%;
     }
+
+    .time h1{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 300px;
+        margin-left: 0px;
+        font-size: 20px;
+        font-weight: 300;
+        letter-spacing: 3px;
+        color: blue;
+        cursor: pointer;
 }
 
 @media  (max-width: 353px) {
@@ -815,6 +842,19 @@ nav ul li {
         position: fixed;
         margin-bottom: 110px;
     }
+
+    .time h1{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 300px;
+        margin-left: 0px;
+        font-size: 20px;
+        font-weight: 300;
+        letter-spacing: 3px;
+        color: blue;
+        cursor: pointer;
 
     
 }

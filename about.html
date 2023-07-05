@@ -33,6 +33,9 @@
                 <img src="image/moon.png" id="icon">
             </nav>
         </div>
+        <div class="time">
+            <h1 id="current-time">12:00:00</h1>
+        </div>
     </div>
     <div class="About">
         <center>
@@ -72,6 +75,13 @@ const change = ()=>{
 }
 
 change()
+
+    let time = document.getElementById("current-time");
+    
+        setInterval(() => {
+            let d = new Date();
+            time.innerHTML = d.toLocaleTimeString();
+        }, 1000);
 
     </script>
 
