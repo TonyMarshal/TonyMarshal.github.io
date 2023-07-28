@@ -14,9 +14,9 @@
         color: green;
     }
 
-    /*body {
-        overflow: scroll;
-    }*/
+    body {
+        overflow-y: hidden;
+    }
      
     
     nav {
@@ -164,7 +164,7 @@
     .Home{
         margin: 0px;
         padding: 5px;
-        margin-top: 240px;
+        margin-top: 235px;
     }
     
     .name {
