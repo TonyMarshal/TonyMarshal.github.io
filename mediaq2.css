@@ -14,9 +14,6 @@
         color: blue;
     }
     
-    body {
-        overflow: scroll;
-    }
     
     nav {
         padding: 10px 0 30px;
