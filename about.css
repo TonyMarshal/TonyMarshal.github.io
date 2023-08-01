@@ -682,6 +682,8 @@ nav ul li {
         letter-spacing: 3px;
         color: blue;
         cursor: pointer;
+    }
+
 }
 
 @media  (max-width: 353px) {
@@ -855,7 +857,7 @@ nav ul li {
         letter-spacing: 3px;
         color: blue;
         cursor: pointer;
-
+    }
     
 }
 
