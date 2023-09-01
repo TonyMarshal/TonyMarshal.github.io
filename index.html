@@ -7,7 +7,7 @@
     <title>Home</title>
     <link rel="shortcut icon" href="image/Tony techs.jpg" type="image/x-icon">
     <link id="css" rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="mediaq1.css">
+    <link rel="stylesheet"  href="mediaq1.css">
     <link rel="stylesheet" href="mediaq2.css">
     <link rel="stylesheet" href="mediaq3.css">
     <link rel="stylesheet" href="mediaq4.css">
@@ -15,9 +15,10 @@
     <link rel="stylesheet" href="mediaq6.css">
     <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.css">
     <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.min.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
 </head>
 <body>
-<div class="contains">
+<div class="contains" id="scrollup">
     <div class="All">
         <div>
             <nav>
@@ -32,8 +33,9 @@
                         x
                     </div>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
                     <li><button class="log" href="" ><a href="mailto:nthnuchenn@gmail.com">Hire Me</a></button></li>
                 </ul>
                 <img src="image/moon.png" id="icon">
@@ -42,47 +44,131 @@
 
     </div>
     <div class="Section">
-        <div class="profilepic">
-            <img src="image/mickey.jpg" id="pic">
-        </div>
-        <div class="Home">
-            <div class="name" id="typed-strings">
-                <h3>Hi, There!</h3>
-                <h1><span id="in"></span></h1>
-            </div>
-            <div class="write">
-                <p>Welcome to My Personal Portfolio website! I'm Anthony, a skilled and creative <br> web developer with a passion for creating beautiful, responsive, and user-friendly websites.
-            </div>
-            <div class="social">
-                <a href="https://www.facebook.com/uchennaabaikwam"><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://twitter.com/TMDON12?t=FhL76h1QOc7uTePGjpwdhQ&s=09"><i class="fa-brands fa-twitter"></i></a>
-                <a href="https://www.instagram.com/abaikwam"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://github.com/TonyMarshal/TonyMarshal.github.io"><i class="fa-brands fa-github"></i></a>
-            </div>
-        </div>
-        <div class="able">
-            <li><a href="My CV.pdf" class="Cvlink">View CV</a></li>
-        </div>
-        
-    </div>
-    <div class="popup" id="popup" style="z-index: 100000;">
-        <div class="container">
-            <div class="promo">
-                <h1>Enter Your Details</h1>
-                <div class="inputs">
-                    <input type="text" placeholder="Name">
-                    <input class="nam" type="text" placeholder="Email" style="z-index: 100000;"> 
+        <center>
+            <div class="Home">
+                <div class="name" id="typed-strings">
+                    <h3>Hi, There!</h3>
+                    <h1><span id="in"></span></h1>
+                </div>
+                <div class="write">
+                    <p>Welcome to My Personal Portfolio website!
                 </div>
             </div>
-            <div class="create">
-                <textarea name="details your job" id="detail"></textarea>
+            <div class="able">
+                <li><a href="My CV.pdf" class="Cvlink">Download CV</a></li>
             </div>
-            <div>
-                <button class="Sen" type="submit" onclick="openPopup()">Submit</button>
+        </center>
+    </div>
+    <div class="container-about">
+        <h1 class="title" id="about">ABOUT ME</h1>
+        <div class="about-content">
+            <div class="image srev" data-name="left-scroll">
+                <img src="image/mickey.jpg">
+            </div>
+            <div class="content srev" data-name="right-scroll">
+                <p>I'm a skilled and creative web developer with a passion for creating beautiful, responsive, and user-friendly websites. I've worked on a veriety of web projects, ranging from music website to flight booking website with HTML, CSS, Javascript and React.</p>
             </div>
         </div>
-
     </div>
+    <div class="skills">
+        <h1 class="text-1">My Skills</h1>
+        <div class="content-skills">
+            <div class="left srev" data-name="left-scroll">
+                <h1>My creative skills</h1>
+                <p>This is the skills that learnt to become a frontend developer. These skills are those that i am good and i can also perform.</p>
+            </div>
+            <div class="right srev" data-name="right-scroll">
+                <div class="line">
+                    <div class="info">
+                        <span>HTML</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="bars html"></div>
+                </div>
+                <div class="line">
+                    <div class="info">
+                        <span>CSS</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="bars css"></div>
+                </div>
+                <div class="line">
+                    <div class="info">
+                        <span>REACT</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="bars jss"></div>
+                </div>
+                <div class="line">
+                    <div class="info">
+                        <span>JAVASCRIPT</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="bars js"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="portfolio" id="portfolio">
+        <div class="main-text">
+            <h2><span>Latest</span> Projects</h2>
+        </div>
+        <div class="portfolio-content srev" data-name="show">
+            <div class="row">
+                <img src="image/Capture weather.PNG">
+                <div class="layer">
+                    <h5>Weather App</h5>
+                    <p>App to check the weather of every city of every country.</p>
+                    <a href="https://ttechweatherapp.netlify.app"><i class="fa fa-external-link"></i></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="image/Capture weather.PNG">
+                <div class="layer">
+                    <h5>Weather App</h5>
+                    <p>App to check the weather of every city of every country.</p>
+                    <a href="#"><i class="fa fa-external-link"></i></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <img src="image/Capture weather.PNG">
+                <div class="layer">
+                    <h5>Weather App</h5>
+                    <p>App to check the weather of every city of every country.</p>
+                    <a href="#"><i class="fa fa-external-link"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="contact" id="contact">
+        <h1>Contact Me</h1>
+        <p>Contact me if you have any question to ask me. you can also contact for any job related to my skills above.</p>
+        <div class="form">
+            <form>
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="E-mail">
+                <input type="text" id="msg" placeholder="Message">
+            </form>
+            <button class="button">Let's Talk</button>
+        </div>
+    </div>
+    <div class="arrow-direct" onclick="scrollup()">
+            <a href="#scrollup"><i class="fa fa-arrow-up"></i></a>
+    </div>
+    <footer class="foot">
+        <div class="footer-bottom">
+            <h1>Portfolio Website</h1>
+            <ul class="socials">
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+            </ul>
+            <p>copyright &copy;2023 Portfolio Website. Designed by <span>TTech Technology</span></p>
+        </div>
+    </footer>
     <div class="section">
         <span>
 
@@ -104,7 +190,7 @@
                 const span = document.querySelectorAll('span');
                
                 var size = Math.floor(Math.random() * 60) +10;
-                console.log(size);
+                // console.log(size);
 
                  const createElement = document.createElement('span')
 
@@ -120,7 +206,21 @@
                     createElement.remove();
                 }, 4000);
              
-            }, 500)
+            }, 500);
+
+            let srev = document.querySelectorAll('.srev');
+
+            document.onscroll = ()=>{
+                srev.forEach((element)=>{
+                    let limit = element.getBoundingClientRect().top;
+                    // console.log(element.dataset.name +":"+ limit);
+                    if (limit < 270) {
+                        element.classList.add(element.dataset.name)
+                    }
+                })
+            }
+
+          
         </script>
 
         

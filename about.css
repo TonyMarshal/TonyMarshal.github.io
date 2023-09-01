@@ -230,9 +230,7 @@ nav ul li {
     }
     
     nav ul {
-        margin-right: 50px;
         display:none;
-
         position: absolute;
         left: 71%;
         top:0%;

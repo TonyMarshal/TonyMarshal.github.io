@@ -43,11 +43,11 @@
     }
     
     nav ul {
-        margin-right: 50px;
+
         display:none;
 
         position: absolute;
-        left: 71%;
+        left: 51%;
         top:0%;
         width: 30%;
         background-color: rgba(0, 0, 0, 0.925);
@@ -71,7 +71,7 @@
             left: 100%;
         }
         to{
-            left: 71%;
+            left: 51%;
         }
     }
 
@@ -140,8 +140,8 @@
         width: 30px;
         cursor: pointer;
         margin-left: 600px;
-        position: fixed;
-        bottom: 0;
+        margin-top: 0%;
+        position: absolute;
     }
     
     .Section {
@@ -151,8 +151,9 @@
     .Home{
         margin: 10px;
         padding: 5px;
-        margin-top: 260px;
+        margin-top: 100px;
     }
+
     
     .name {
         line-height: 150%;
@@ -166,27 +167,6 @@
         color: blue;
     }
     
-    .social{
-        padding: 8px;
-    }
-    
-    .social a{
-        width: 37px;
-        height: 37px;
-        border-radius: 50%;
-        display: inline-flex;
-        align-items: center;
-        font-size: 17px;
-        color: var(--secondary-color);
-        cursor: pointer;
-        margin-right: 20px;
-        transition: all .30s;
-    }
-    
-    .social a:hover {
-        transform: translateY(-3px);
-        color: #ef0454;
-    }
     
     h1 {
         font-size: 30px;
@@ -199,12 +179,12 @@
     }
     
     .able {
-        margin-left: 20px;
+        margin-left: 13px;
         margin-top: 20px;
         border: 1px solid green;
         border: none;
         background-color: green;
-        width: 13%;
+        width: 20%;
         padding: 10px;
         border-radius: 5px;
         height: 15%;
@@ -214,75 +194,6 @@
         color: white;
     }
     
-    .popup {
-       
-        transform: translate(-50%, -50%) scale(0.1);
-        visibility: hidden;
-    
-    }
-    
-    .open-popup{
-        top: 47%;
-        left: 50%;
-        position: absolute;
-        visibility: visible;
-        z-index: 1000;
-        opacity: 1;
-        transform: translate(-50%, -50%) scale(1);
-    }
-    
-    .container {
-        width: 35em;
-        height: 30em;
-        position: relative;
-        border-radius: 1em;
-        box-shadow: 0.0.188em 1.550em rgb(58, 8, 139);
-        padding: 0px 40px 40px 40px;
-        margin-top: 35px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        background-color: black;
-    }
-    
-    .promo {
-        font-size: 20px;
-    }
-    
-    .container .promo h1 {
-        margin-bottom: 50px;
-        padding-left: 20%;
-        padding-top: 5px;
-        color: white;
-    }
-    
-    .container .promo input {
-        display: flex;
-        margin-left: 5px;
-        width: 19.3em;
-        height: 35px;
-    }
-    
-    
-    .inputs {
-        display: flex;
-    }
-    
-    #detail {
-        width: 520px;
-        height: 250px;
-    }
-    
-    .Sen {
-        margin-right: 446px; 
-        width: 80px;
-        height: 35px;
-        border-radius: 5px;
-        background-color: green;
-        cursor: pointer;
-        color: white;
-    }
     
     .menu-icon {
         font-size: 30px;
@@ -294,24 +205,6 @@
         
     }
 
-    .profilepic {
-        display: grid;
-    }
-
-    #pic {
-        width: 40%; 
-        height:40%;
-        margin-left: 220px;
-        position: absolute;
-        top: 0%;
-        width: min(15rem, 35%);
-        border-radius: 30%;
-        margin-top: 65px;
-        place-items: center;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-    }
 
     .section span{
         position: absolute;
@@ -325,14 +218,158 @@
     
     @keyframes buble{
         0%{
-            transform: translateY(0%);
+            top: 80%;
             opacity: 1;
             
         }
     
         100%{
-            transform: translateY(-1200px);
-            
+            top: 0%;
+            opacity: 1;
         }
     }
+
+    .container-about {
+        width: 80%;
+        margin-top: 35%;
+        padding: 20px;
+        margin-left: 100px;
+    }
+    
+    .about-content {
+        flex-direction: column;
+        margin-right: 10%;
+    }
+
+    .title {
+        margin-right: 30%;
+        margin-bottom: 0%;
+        font-size: 38px;
+    }
+    
+    .image {
+        flex: 1;
+        margin-right: 0px;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+    
+    .image img {
+        width: 65%;
+        height: 10%;
+        transition: transform 0.3s ease;
+        margin-left: 20%;
+        margin-top: 60px;
+    }
+    
+    .image:hover {
+        transform: scale(1.1);
+    }
+
+    .image, .content {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    
+    .portfolio-content {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+        align-items: center;
+        gap: 2.5rem;
+        margin-top: 5rem;
+        margin-left: 5rem;
+    }
+    
+    .row {
+        position: relative;
+        overflow: hidden;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+    
+    .row img {
+        width: 60%;
+        border-radius: 8px;
+        display: block;
+        transition: transform 0.5s;
+        margin-left: 15%;
+    }
+    
+    .layer {
+        width: 65%;
+        height: 0;
+        background: linear-gradient(rgba(0,0,0,0.1), #ff004f);
+        border-radius: 8px;
+        margin-left: 12.4%;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0 40px;
+        transition: height 0.5s;
+        flex-direction: column;
+    }
+    
+    .layer h5 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 15px
+    }
+    
+    .layer p {
+        color: white;
+        font-size: 1rem;
+        line-height: 1.2;
+    }
+    
+    .layer i {
+        color: red;
+        margin-top: 20px;
+        font-size: 20px;
+        background: whitesmoke;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+    }
+    
+    .row:hover img {
+        transform: scale(1.1);
+    }
+    
+    .row:hover .layer {
+        height: 100%;
+    }
+
+    .main-text {
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        margin-top: 20%;
+    }
+
+    .skills {
+        margin: auto;
+        width: 100%;
+        padding: 100px 0;
+    }
+    
+    .skills h1 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    
+    .content-skills {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        width: 100%;
+    }
+    
 }

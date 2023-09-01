@@ -59,24 +59,24 @@ window.onload=()=>{
 
 
 
-console.log(theme_link)
+// console.log(theme_link);
 
-    createBubble = () => {
-        const section = document.querySelector('section');
-        const span = document.querySelector('span');
-        var size = Math.random() * 60;
+    // createBubble = () => {
+    //     const section = document.querySelector('section');
+    //     const span = document.querySelector('span');
+    //     var size = Math.random() * 60;
+        
+    //     createElement.style.width = size + 'px';
+    //     createElement.style.height = size + 'px';
+    //     createElement.style.left = Math.random() * innerWidth + 'px';
 
-        createElement.style.width = size + 'px';
-        createElement.style.height = size + 'px';
-        createElement.style.left = Math.random() * innerWidth + 'px';
+    //     section.appendChild(createElement);
 
-        section.appendChild(createElement);
-
-        setTimeout(() => {
-            createElement.remove();
-        }, 4000);
-    }
-    setInterval(createBubble, 50)
+    //     setTimeout(() => {
+    //         createElement.remove();
+    //     }, 4000);
+    // }
+    // setInterval(createBubble, 50)
 
 
 

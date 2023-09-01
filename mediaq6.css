@@ -140,7 +140,6 @@
     
     body{
         background-color: var(--primary-color);
-        overflow-y: hidden;
     }
 
     .dark-theme {
