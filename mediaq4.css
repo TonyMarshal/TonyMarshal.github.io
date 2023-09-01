@@ -138,6 +138,7 @@
     
     body{
         background-color: var(--primary-color);
+        overflow-x: hidden;
     }
 
     .dark-theme {
@@ -289,9 +290,9 @@
     }
 
     .title {
-        margin-left: 5%;
+        margin-left: 0%;
         text-align: center;
-        font-size: 30px;
+        font-size: 27px;
         justify-content: center;
     }
 
