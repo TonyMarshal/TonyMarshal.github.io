@@ -243,10 +243,9 @@ h1 {
     justify-content: center;
 }
 
-.section span{
+/*.section span{
     position: absolute;
     background: transparent;
-    /* bottom: -50px; */
     border-radius: 50%;
     pointer-events: none;
     box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5);
@@ -346,7 +345,7 @@ h1 {
 
 .left h1 {
     font-size: 30px;
-    margin-right: 20rem;
+    margin-right: 0rem;
 }
 
 .left p {
