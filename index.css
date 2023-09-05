@@ -745,11 +745,18 @@ footer h1 {
     position: fixed;
     bottom: 0;
     right: 0;
-    font-size: 30px;
+    font-size: 20px;
     border: 1px solid black;
     border-radius: 150%;
-    background-color: black;
+    background: black;
     z-index: 100000;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
 
 .arrow-direct i {
