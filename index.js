@@ -59,25 +59,26 @@ window.onload=()=>{
 
 
 
-// console.log(theme_link);
+/*setInterval(()=>{
+    const section = document.querySelector('.section');
+    const span = document.querySelectorAll('span');
+   
+    var size = Math.floor(Math.random() * 60) +10;
 
-    // createBubble = () => {
-    //     const section = document.querySelector('section');
-    //     const span = document.querySelector('span');
-    //     var size = Math.random() * 60;
-        
-    //     createElement.style.width = size + 'px';
-    //     createElement.style.height = size + 'px';
-    //     createElement.style.left = Math.random() * innerWidth + 'px';
+     const createElement = document.createElement('span')
 
-    //     section.appendChild(createElement);
+    createElement.style.width = size + 'px';
+    createElement.style.height = size + 'px';
+    createElement.style.left = Math.random() * innerWidth + 'px';
+    createElement.style.zIndex = -1
 
-    //     setTimeout(() => {
-    //         createElement.remove();
-    //     }, 4000);
-    // }
-    // setInterval(createBubble, 50)
+    section.appendChild(createElement);
 
+    setTimeout(() => {
+        createElement.remove();
+    }, 4000);
+ 
+}, 500);*/
 
 
     

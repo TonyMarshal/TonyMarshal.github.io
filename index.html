@@ -184,29 +184,6 @@
         <script type="text/javascript" src="./index.js"></script>
 
         <script>
-           
-            setInterval(()=>{
-                const section = document.querySelector('.section');
-                const span = document.querySelectorAll('span');
-               
-                var size = Math.floor(Math.random() * 60) +10;
-                // console.log(size);
-
-                 const createElement = document.createElement('span')
-
-                createElement.style.width = size + 'px';
-                createElement.style.height = size + 'px';
-                createElement.style.left = Math.random() * innerWidth + 'px';
-                createElement.style.zIndex = -1
-
-                section.appendChild(createElement);
-                // alert()
-
-                setTimeout(() => {
-                    createElement.remove();
-                }, 4000);
-             
-            }, 500);
 
             let srev = document.querySelectorAll('.srev');
 
