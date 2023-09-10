@@ -350,13 +350,16 @@
         overflow: hidden;
         border-radius: 8px;
         cursor: pointer;
+        right: 2%;
     }
     
     .book img {
-        width: 80%;
+        width: 128%;
         border-radius: 8px;
         display: block;
         transition: transform 0.5s;
+        min-height: 50vh;
+        max-height: 80vh;
     }
     
     .booking-cover {
@@ -417,6 +420,80 @@
     .book:hover .booking-cover {
         height: 100%;
     }
+
+    .gene {
+        position: relative;
+        overflow: hidden;
+        border-radius: 8px;
+        cursor: pointer;
+        right: 5%;
+    }
+    
+    .gene img {
+        width: 100%;
+        border-radius: 8px;
+        display: block;
+        transition: transform 0.5s;
+    }
+    
+    .layer-gene {
+        width: 160%;
+        height: 0;
+        background: linear-gradient(rgba(0,0,0,0.1), #ff004f);
+        position: absolute;
+        border-radius: 8px;
+        left: 0;
+        bottom: 0;
+        right: 100;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0 40px;
+        transition: height 0.5s;
+        flex-direction: column;
+    }
+    
+    .layer-gene h5 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 15px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-right: 45%;
+    }
+    
+    .layer-gene p {
+        color: white;
+        font-size: 1rem;
+        line-height: 1.2;
+        margin-right: 45%;
+    }
+    
+    .layer-gene i {
+        margin-right: 22rem;
+        color: red;
+        margin-top: 20px;
+        font-size: 20px;
+        background: whitesmoke;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+    }
+    
+    .gene:hover img {
+        transform: scale(1.1);
+    }
+    
+    .gene:hover .layer-gene {
+        height: 100%;
+    }
+
 
     .main-text {
         text-align: center;
