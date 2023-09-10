@@ -408,18 +408,18 @@
         overflow: hidden;
         border-radius: 8px;
         cursor: pointer;
-        right: 5%;
+        right: 5;
     }
     
     .gene img {
-        width: 100%;
+        width: 90%;
         border-radius: 8px;
         display: block;
         transition: transform 0.5s;
     }
     
     .layer-gene {
-        width: 160%;
+        width: 95%;
         height: 0;
         background: linear-gradient(rgba(0,0,0,0.1), #ff004f);
         position: absolute;
@@ -444,18 +444,18 @@
         text-align: center;
         align-items: center;
         justify-content: center;
-        margin-right: 45%;
+        margin-right: 5%;
     }
     
     .layer-gene p {
         color: white;
         font-size: 1rem;
         line-height: 1.2;
-        margin-right: 45%;
+        margin-right: 5%;
     }
     
     .layer-gene i {
-        margin-right: 15rem;
+        margin-right: 2rem;
         color: red;
         margin-top: 20px;
         font-size: 20px;
@@ -481,20 +481,20 @@
         overflow: hidden;
         border-radius: 8px;
         cursor: pointer;
-        right: 2%;
+        right: 5%;
     }
 
     .book img {
-        width: 140%;
+        width: 130%;
         border-radius: 8px;
         display: block;
         transition: transform 0.5s;
         min-height: 50vh;
-        max-height: 100vh;
+        max-height: 10vh;
     }
 
     .booking-cover h5 {
-        font-size: 15px;
+        font-size: 20px;
         font-weight: 600;
         margin-bottom: 15px;
         text-align: center;
@@ -505,7 +505,7 @@
     }
 
     .booking-cover {
-        width: 97%;
+        width: 87%;
         height: 0;
         background: linear-gradient(rgba(0,0,0,0.1), #ff004f);
         position: absolute;
