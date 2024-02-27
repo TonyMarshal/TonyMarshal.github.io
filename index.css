@@ -481,7 +481,7 @@ h1 {
 
 
 .row img {
-    width: 80%;
+    width: 60%;
     border-radius: 8px;
     display: block;
     transition: transform 0.5s;
@@ -496,14 +496,14 @@ h1 {
 }
 
 .gene img {
-    width: 100%;
+    width: 80%;
     border-radius: 8px;
     display: block;
     transition: transform 0.5s;
 }
 
 .layer-gene {
-    width: 160%;
+    width: 84%;
     height: 0;
     background: linear-gradient(rgba(0,0,0,0.1), #ff004f);
     position: absolute;
@@ -528,18 +528,18 @@ h1 {
     text-align: center;
     align-items: center;
     justify-content: center;
-    margin-right: 45%;
+    margin-right: 3%;
 }
 
 .layer-gene p {
     color: white;
     font-size: 1rem;
     line-height: 1.2;
-    margin-right: 45%;
+    margin-right: 3%;
 }
 
 .layer-gene i {
-    margin-right: 15rem;
+    margin-right: 0rem;
     color: red;
     margin-top: 20px;
     font-size: 20px;
@@ -560,85 +560,8 @@ h1 {
     height: 100%;
 }
 
-.book {
-    position: relative;
-    overflow: hidden;
-    border-radius: 8px;
-    cursor: pointer;
-    right: 15%;
-}
-
-.book img {
-    width: 160%;
-    border-radius: 8px;
-    display: block;
-    transition: transform 0.5s;
-    margin-left: -50%;
-    min-height: 50vh;
-    max-height: 60vh;
-}
-
-.booking-cover {
-    width: 160%;
-    height: 0;
-    background: linear-gradient(rgba(0,0,0,0.1), #ff004f);
-    position: absolute;
-    border-radius: 8px;
-    left: 0;
-    bottom: 0;
-    right: 100;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 0 40px;
-    transition: height 0.5s;
-    flex-direction: column;
-}
-
-.booking-cover h5 {
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 15px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    margin-right: 35%;
-}
-
-.booking-cover p {
-    color: white;
-    font-size: 1rem;
-    line-height: 1.2;
-    margin-right: 40%;
-}
-
-
-.booking-cover i {
-    margin-right: 12rem;
-    color: red;
-    margin-top: 20px;
-    font-size: 20px;
-    background: whitesmoke;
-    width: 60px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-}
-
-.book:hover img {
-    transform: scale(1.1);
-}
-
-.book:hover .booking-cover {
-    height: 100%;
-}
-
 .layer {
-    width: 84.5%;
+    width: 63%;
     height: 0;
     background: linear-gradient(rgba(0,0,0,0.1), #ff004f);
     position: absolute;
